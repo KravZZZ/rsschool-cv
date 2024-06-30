@@ -41,3 +41,6 @@
     + ### Learning Javascript from an electronic resource learn.javascript.ru
     + ### independent practice
 ****
+* ## *Languages:*
+    + ### Russian: native
+    + ### English: A2 (I constantly improve my level)
