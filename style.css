@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
+  padding: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth
 }
 
 body {
@@ -14,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content:space-between;
@@ -38,9 +43,7 @@ body {
 }
 
 .avatar-foto {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  height: 100%;
 }
 
 .i-am {
@@ -88,31 +91,79 @@ body {
 }
 
 .left {
-  background-color: #444444;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
 }
 
 .title-section {
   font-size: 40px;
   font-weight: 500;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: solid 3px #ffe502;
   color:  #ffe502;
-  margin-top: 20px;
 }
 
-.contacts-list {
+.list {
   list-style-type: none;
   font-size: 25px;
   color: #ffe502;
-
-.contact {
-  display: flex;
-  justify-content: space-between;
+  padding: 0 30px 0 0;
 }
 
-.img-contact{
+.ithem-list {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.img-ithem-list{
   margin: 0;
   width: 40px;
   height: 40px;
+  margin-right: 5px;
 }
+
+.title-skills {
+  width: 345px;
+}
+
+.right {
+  background-color: #c9c9c9;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.title-right {
+  color: #000000;
+}
+
+.title-expirience {
+  padding-top: 0;
+}
+
+.footer-container {
+  height: 100px;
+  background-color: rgb(23, 23, 23);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border-top: solid 3px #ffe502;
+}
+
+.img-logo {
+  margin: 10px 40px 10px 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.year {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+
