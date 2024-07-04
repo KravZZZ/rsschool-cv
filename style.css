@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+.header-container {
+  height: 360px;
+  background-color: #ffe502;
+}
+
+.left-container {
+  width: 360px;
+}
+
+.avatar {
+  height: 360px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-foto {
+  height: 100%;
+}
+
+.i-am {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.navbar {
+  margin-top: 50px;
+  background-color: #000000;
+}
+
+.nav-btns {
+  width: 1080px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.nav-btn {
+  color: #ffe502;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.name {
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.speciality {
+  font-size: 45px;
+}
+
+.left {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.title-section {
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: solid 3px #ffe502;
+  color:  #ffe502;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 25px;
+  color: #ffe502;
+  padding: 0 30px 0 0;
+}
+
+.ithem-list {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.img-ithem-list{
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.title-skills {
+  width: 345px;
+}
+
+.right {
+  background-color: #c9c9c9;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.title-right {
+  color: #000000;
+}
+
+.title-expirience {
+  padding-top: 0;
+}
+
+.footer-container {
+  height: 100px;
+  background-color: rgb(23, 23, 23);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border-top: solid 3px #ffe502;
+}
+
+.img-logo {
+  margin: 10px 40px 10px 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.year {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+
